@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+    <head>
+        <title>CSV to HTML</title>
+        <meta charset = 'utf-8'>
+        <style>
+            body{
+                background-color: #DDD;
+            }
+            table{
+                width:100%;
+            }table ,td,th{
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 10px;
+                text-align: left;
+            }
+            table tr:nth-child(even) {
+                background-color: #b1b1b1;
+            }
+            table tr:nth-child(odd) {
+                background-color: #fff;
+            }
+            table th {
+                background-color: black;
+                color: white;
+                border:1px solid black
+            }
+        </style>
+    </head>
+    <body>
+        <h2> Students list </h2>
+        <br>
+        <table>
+            <thead>
+                <tr> 
+                    <th>nom</th> 
+                    <th>prenom</th> 
+                    <th>matricule</th> 
+                    <th>s1</th> 
+                    <th>s2</th> 
+                    <th>credits</th> 
+                    <th>Moy Gene</th> 
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> Rezouk </td>
+                    <td> Fares </td>
+                    <td> A1 </td>
+                    <td> 10.25 </td>
+                    <td> 11.25 </td>
+                    <td> 66 </td>
+                    <td> 10.75 </td>
+                    <td> Admis </td>
+                </tr>
+                <tr>
+                    <td> Gana </td>
+                    <td> Ahmed </td>
+                    <td> A2 </td>
+                    <td> 9.36 </td>
+                    <td> 8.55 </td>
+                    <td> 20 </td>
+                    <td> 8.955 </td>
+                    <td> Ajournee </td>
+                </tr>
+                <tr>
+                    <td> Saada </td>
+                    <td> Sabah </td>
+                    <td> A3 </td>
+                    <td> 12.25 </td>
+                    <td> 4 </td>
+                    <td> 44 </td>
+                    <td> 8.125 </td>
+                    <td> Ajournee </td>
+                </tr>
+                <tr>
+                    <td> Guellil </td>
+                    <td> Hamida </td>
+                    <td> A4 </td>
+                    <td> 11.1 </td>
+                    <td> 10.3 </td>
+                    <td> 54 </td>
+                    <td> 10.7 </td>
+                    <td> Admis </td>
+                </tr>
+                <tr>
+                    <td> Doumani </td>
+                    <td> Rabeh </td>
+                    <td> A5 </td>
+                    <td> 8.3 </td>
+                    <td> 9.01 </td>
+                    <td> 46 </td>
+                    <td> 8.655 </td>
+                    <td> Admis ave detts </td>
+                </tr>
+                <tr>
+                    <td> Saidi </td>
+                    <td> Ismail </td>
+                    <td> A6 </td>
+                    <td> 10.88 </td>
+                    <td> 1 </td>
+                    <td> 55 </td>
+                    <td> 5.94 </td>
+                    <td> Admis ave detts </td>
+                </tr>
+            </tbody>
+        </table > 
+        </br>
+        </br>
+        <h2> Top Grade </h2>
+        <span> is : </span>
+        <span><b>10.75 / 20</b></span>
+        <h2>Worst Grade</h2>
+        <span>is : </span>
+        <span><b>5.94 / 20</b></span>
+        <h2>Statistics</h2>
+        <p>Number of students Admis : <b>2</b> of 6  ( 33% ) </p>
+        <p>Number of students Admis avec dette : <b>2</b>  of 6  ( 33% )</p>
+        <p>Number of students Ajournee : <b>2</b>  of 6 ( 33% )</p>
+    </body>
+</html>

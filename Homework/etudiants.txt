@@ -1,0 +1,7 @@
+nom,prenom,matricule,s1,s2,credits
+Rezouk,Fares,A1,10.25,11.25,66
+Gana,Ahmed,A2,9.36,8.55,20
+Saada,Sabah,A3,12.25,4,44
+Guellil,Hamida,A4,11.1,10.3,54
+Doumani,Rabeh,A5,8.3,9.01,46
+Saidi,Ismail,A6,10.88,1,55
